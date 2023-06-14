@@ -1,0 +1,13 @@
+dataset:
+  humman_path: /newdata/kenkunkiu/benchmark_human_body_rendering/generalization/humman_selected
+  subject: 'p100047_a001425'
+  sex: 'neutral'
+
+training_view: [0, 3, 6, 9]
+max_frames: 50
+
+start_idx: 0
+
+output:
+  dir: ../../dataset/humman_selected
+  name: 'p100047_a001425'

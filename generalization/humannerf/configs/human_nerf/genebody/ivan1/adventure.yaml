@@ -1,0 +1,42 @@
+task: 'genebody'
+subject: 'ivan1'
+experiment: 'adventure'
+
+
+##############################################3
+## Data Configuration
+
+train:
+  dataset_module: 'core.data.human_nerf.train'
+  dataset: 'gb_ivan1_train'
+
+progress:
+  dataset_module: 'core.data.human_nerf.train'
+  dataset: 'gb_ivan1_test'
+
+movement:
+  dataset_module: 'core.data.human_nerf.train'
+  dataset: 'gb_ivan1_test'
+
+freeview:
+  dataset_module: 'core.data.human_nerf.freeview'
+  dataset: 'gb_ivan1_test'
+
+tpose:
+  dataset_module: 'core.data.human_nerf.tpose'
+  dataset: 'gb_ivan1_test'
+
+eval:
+  dataset_module: 'core.data.human_nerf.train'
+  dataset: 'gb_ivan1_eval'
+
+eval_pose:
+  dataset_module: 'core.data.human_nerf.train'
+  dataset: 'gb_ivan1_eval_pose'
+
+vis:
+  dataset_module: 'core.data.human_nerf.train'
+  dataset: 'gb_ivan1_vis'
+
+bgcolor: [0., 0., 0.]
+resize_img_scale: 0.5

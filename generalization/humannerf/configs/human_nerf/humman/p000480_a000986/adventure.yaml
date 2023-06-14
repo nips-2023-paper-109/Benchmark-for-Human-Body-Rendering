@@ -1,0 +1,38 @@
+task: 'humman'
+subject: 'p000480_a000986'
+experiment: 'adventure'
+
+
+##############################################3
+## Data Configuration
+
+train:
+  dataset_module: 'core.data.human_nerf.train'
+  dataset: 'hm_p000480_a000986_train'
+
+progress:
+  dataset_module: 'core.data.human_nerf.train'
+  dataset: 'hm_p000480_a000986_test'
+
+movement:
+  dataset_module: 'core.data.human_nerf.train'
+  dataset: 'hm_p000480_a000986_test'
+
+freeview:
+  dataset_module: 'core.data.human_nerf.freeview'
+  dataset: 'hm_p000480_a000986_test'
+
+tpose:
+  dataset_module: 'core.data.human_nerf.tpose'
+  dataset: 'hm_p000480_a000986_test'
+
+eval:
+  dataset_module: 'core.data.human_nerf.train'
+  dataset: 'hm_p000480_a000986_eval'
+
+eval_pose:
+  dataset_module: 'core.data.human_nerf.train'
+  dataset: 'hm_p000480_a000986_eval_pose'
+
+bgcolor: [0., 0., 0.]
+resize_img_scale: 0.5

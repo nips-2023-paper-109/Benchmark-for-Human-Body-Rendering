@@ -1,0 +1,11 @@
+dataset:
+  zju_mocap_path: /newdata/kenkunkiu/datasets/zju_mocap_anisdf
+  subject: '315'
+  sex: 'neutral'
+
+training_view: 0
+max_frames: 1500
+
+output:
+  dir: ../../dataset/zju_mocap
+  name: '315'

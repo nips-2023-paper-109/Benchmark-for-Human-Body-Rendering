@@ -1,0 +1,11 @@
+dataset:
+  zju_mocap_path: /newdata/kenkunkiu/datasets/zju_mocap
+  subject: '390'
+  sex: 'neutral'
+
+training_view: 0
+max_frames: 750
+
+output:
+  dir: ../../dataset/zju_mocap
+  name: '390'

@@ -1,0 +1,13 @@
+dataset:
+  genebody_path: /newdata/kenkunkiu/benchmark_human_body_rendering/generalization/genebody_dataset
+  subject: 'huajiangtao3'
+  sex: 'neutral'
+
+training_view: [1, 13, 25, 37]
+max_frames: 100
+
+start_idx: 50
+
+output:
+  dir: ../../dataset/genebody
+  name: 'huajiangtao3'

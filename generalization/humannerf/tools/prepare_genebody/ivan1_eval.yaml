@@ -1,0 +1,15 @@
+dataset:
+  genebody_path: /newdata/kenkunkiu/benchmark_human_body_rendering/generalization/genebody_dataset
+  subject: 'ivan1'
+  sex: 'neutral'
+
+training_view: [1, 13, 25, 37]
+max_frames: 100
+
+start_idx: 705
+
+skip: 30
+
+output:
+  dir: ../../dataset/genebody
+  name: 'ivan1_eval'
